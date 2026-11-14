@@ -1,0 +1,5 @@
+html, body, #viewer { width: 100%; height: 100%; margin: 0; overflow: hidden; background: #fff; }
+/* The scene's own camera answers a drag, so a finger on it turns the device
+   instead of scrolling the phone pane. The app's own preview canvas carries
+   the same rule; the two must behave the same way under a thumb. */
+canvas { display: block; width: 100%; height: 100%; touch-action: none; }

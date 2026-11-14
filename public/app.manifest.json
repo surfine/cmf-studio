@@ -1,0 +1,147 @@
+{
+  "id": "cmf-studio",
+  "version": "1.0.0",
+  "protocol": 1,
+  "kit": ">=1 <2",
+  "windows": [
+    {
+      "window": "cmfStudio",
+      "app": "cmfStudio",
+      "entry": "index.html",
+      "titleKey": "cmf_studio_title",
+      "windowClass": "cmf-studio-window openttd-window extracted-app-window",
+      "paneClass": "openttd-pane",
+      "frameClass": "openttd-frame",
+      "size": {
+        "width": "1120px",
+        "height": "720px"
+      },
+      "capabilities": [
+        "state",
+        "files",
+        "services",
+        "appearance",
+        "snapshot"
+      ],
+      "services": [
+        "cmf.capabilities",
+        "cmf.exportUsdz"
+      ],
+      "menus": [
+        {
+          "id": "file",
+          "labelKey": "menu_file",
+          "items": [
+            {
+              "type": "item",
+              "action": "cmf-save-recipe",
+              "labelKey": "save",
+              "conditionId": "cmf-save-recipe"
+            },
+            {
+              "type": "item",
+              "action": "cmf-export-usdz",
+              "labelKey": "cmf_export_usdz",
+              "conditionId": "cmf-export-usdz"
+            },
+            {
+              "type": "item",
+              "action": "close-active-window",
+              "labelKey": "close",
+              "shortcutId": "close-window",
+              "conditionId": "close-active-window"
+            }
+          ]
+        },
+        {
+          "id": "recipe",
+          "labelKey": "menu_recipe",
+          "items": [
+            {
+              "type": "item",
+              "action": "cmf-shuffle",
+              "labelKey": "cmf_shuffle",
+              "conditionId": "cmf-shuffle"
+            },
+            {
+              "type": "item",
+              "action": "cmf-reset",
+              "labelKey": "reset",
+              "conditionId": "cmf-reset"
+            },
+            {
+              "type": "item",
+              "action": "cmf-reset-view",
+              "labelKey": "cmf_reset_view",
+              "conditionId": "cmf-reset-view"
+            }
+          ]
+        },
+        {
+          "id": "view",
+          "labelKey": "menu_view",
+          "items": [
+            {
+              "type": "item",
+              "action": "cmf-view-front",
+              "labelKey": "cmf_view_front",
+              "conditionId": "cmf-view-front",
+              "checkable": true
+            },
+            {
+              "type": "item",
+              "action": "cmf-view-back",
+              "labelKey": "cmf_view_back",
+              "conditionId": "cmf-view-back",
+              "checkable": true
+            },
+            {
+              "type": "item",
+              "action": "cmf-view-side",
+              "labelKey": "cmf_view_side",
+              "conditionId": "cmf-view-side",
+              "checkable": true
+            }
+          ]
+        },
+        {
+          "id": "window",
+          "hostMenu": "window"
+        }
+      ]
+    }
+  ],
+  "intents": [],
+  "strings": {
+    "en": {
+      "cmf_studio_title": "CMF Studio",
+      "menu_file": "File",
+      "save": "Save",
+      "cmf_export_usdz": "Export USDZ",
+      "close": "Close",
+      "menu_recipe": "Recipe",
+      "cmf_shuffle": "Shuffle",
+      "reset": "Reset",
+      "cmf_reset_view": "Reset View",
+      "menu_view": "View",
+      "cmf_view_front": "Front",
+      "cmf_view_back": "Back",
+      "cmf_view_side": "Side"
+    },
+    "zh": {
+      "cmf_studio_title": "配色工作台",
+      "menu_file": "文件",
+      "save": "保存",
+      "cmf_export_usdz": "导出 USDZ",
+      "close": "关闭",
+      "menu_recipe": "配方",
+      "cmf_shuffle": "随机搭配",
+      "reset": "重置",
+      "cmf_reset_view": "重置视角",
+      "menu_view": "查看",
+      "cmf_view_front": "正面",
+      "cmf_view_back": "背面",
+      "cmf_view_side": "侧面"
+    }
+  }
+}
