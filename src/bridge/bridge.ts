@@ -8,7 +8,7 @@ import type { Appearance, BridgeClient, CmfCapabilities, CmfExportResult, MenuSt
 /** The window's app in the manifest: the desk checks the hello against it. */
 export const APP_ID = "cmfStudio";
 export const WINDOW_NAME = "cmfStudio";
-export const APP_VERSION = "1.0.0";
+export const APP_VERSION = "1.0.1";
 
 export type { BridgeClient } from "./types.ts";
 
