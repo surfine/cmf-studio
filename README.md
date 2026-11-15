@@ -7,6 +7,12 @@ orbit it, jump to named views, open the laptop's lid or fold the folding phone.
 Export the finished device as a USDZ for Quick Look and AR, the named views as
 PNGs, and the fold as a video.
 
+## Screenshots
+
+Captured running inside the AI System 6 desk: Classic on the left, Liquid Glass on the right.
+
+<p><img src="screenshots/cmfStudio-classic.png" width="49%" alt="CMF Studio · Classic"> <img src="screenshots/cmfStudio-liquid-glass.png" width="49%" alt="CMF Studio · Liquid Glass"></p>
+
 It is a workbench recipe, not a shipped colourway: every finish is real, the
 combination is yours.
 

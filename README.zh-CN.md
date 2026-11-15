@@ -2,6 +2,12 @@
 
 真实设备的颜色、材质与表面处理工作台。选一台手机或笔记本，选一个部件，从厂商真正为这台设备发售过的表面处理里挑一种涂上去，然后在实时 3D 模型上看结果：可以转动、跳到命名视角、打开笔记本的屏幕或折叠折叠屏手机。成品可以导出为 USDZ（用于快速查看和 AR），命名视角导出为 PNG，折叠过程导出为视频。
 
+## 截图
+
+在 AI System 6 桌面里实际运行时截取，左为 Classic，右为 Liquid Glass。
+
+<p><img src="screenshots/cmfStudio-classic.png" width="49%" alt="CMF Studio · Classic"> <img src="screenshots/cmfStudio-liquid-glass.png" width="49%" alt="CMF Studio · Liquid Glass"></p>
+
 它是一份工作台配方，不是厂商发售的整机配色：每种表面处理都真实存在，组合是你自己的。
 
 它可以在自己的页面上独立运行，也可以作为 AI System 6 桌面的一个窗口，通过应用套件的桥（`public/ais6-bridge.js`）与桌面通信。
